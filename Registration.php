@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost','root','root123','hospital') or die("could not connect to database");
+$conn = mysqli_connect('*****','*****','*****','*****') or die("could not connect to database");
 
 if(isset($_POST['reg_user'])){
 
