@@ -40,7 +40,7 @@ table{width : 800 ; height : 400}
 </tr>
 <br><br><br><br><br><br><br>
 <?php
-$connect=mysqli_connect("localhost","root","root123","hospital")or die("Connection Failed");
+$connect=mysqli_connect("*****","*****","*****","*****")or die("Connection Failed");
 if (isset($_POST['app_user']))
 {
     $email = $_POST['email'];
