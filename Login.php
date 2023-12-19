@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','root123','hospital') or die("could not connect to database");
+$conn = mysqli_connect('*****','*****','*****','*****') or die("could not connect to database");
 session_start();
 
 if(isset($_POST['login_user'])){
