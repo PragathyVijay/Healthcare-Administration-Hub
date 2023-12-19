@@ -8,7 +8,7 @@ $email = "";
 $errors = array();
 
 //connect to database
-$db = mysqli_connect('localhost','root','root123','hospital') or die("could not connect to database");
+$db = mysqli_connect('*****','*****','*****','*****') or die("could not connect to database");
 
 //Register users
 //if(isset($_POST['reg_user']))
